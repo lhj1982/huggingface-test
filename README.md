@@ -1,3 +1,17 @@
+# Python
+```
+python -m venv .venv
+
+# activate
+source .env/bin/activate
+# deactivate
+deactivate
+
+# install dependency
+python3 -m pip install huggingface-hub
+```
+
+# Conda
 conda env create --file hf-env.yml
 conda env update –file hf-env.yml
 
