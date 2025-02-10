@@ -1,3 +1,10 @@
+# In china
+use
+```
+export HF_ENDPOINT=https://hf-mirror.com/
+```
+then login
+
 # Python
 ```
 python -m venv .venv
@@ -8,7 +15,8 @@ source .env/bin/activate
 deactivate
 
 # install dependency
-python3 -m pip install huggingface-hub
+python3 -m pip install transformers datasets evaluate accelerate
+python3 -m pip install torch
 ```
 
 # Conda
